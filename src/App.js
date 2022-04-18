@@ -1,12 +1,13 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Slider from './components/Slider'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+      <Navbar />
+      <Slider />  
+    </>
   )
 }
 
