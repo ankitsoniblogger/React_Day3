@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../Media/ankitsonilogo.png";
-import Login from "./Login";
 
 const Navbar = () => {
   return (

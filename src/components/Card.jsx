@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import card from '../Media/CYGNET (3).png'
-import CardDetails from './CardDetails'
 
 
 
