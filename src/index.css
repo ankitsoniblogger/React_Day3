@@ -5,6 +5,12 @@
 
 @layer base {
     html{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Proxima';
+        }
+
+    @font-face{
+        font-family: 'Proxima';
+        src: url('./components/Font/Proxima.woff2') format('woff2');
     }
+
 }
