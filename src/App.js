@@ -6,6 +6,7 @@ import About from './components/About'
 import CardDetails from './components/CardDetails'
 import Combo from './components/Combo'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Login from './components/Login'
 
 import Navbar from './components/Navbar'
@@ -30,7 +31,7 @@ const App = () => {
 
         </Routes>
         
-        
+        <Footer/>
         
     </>
   )
