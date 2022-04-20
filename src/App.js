@@ -1,5 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Daseboard from './admin/Daseboard'
+import WritePost from './admin/WritePost'
 import About from './components/About'
 import CardDetails from './components/CardDetails'
 import Combo from './components/Combo'
@@ -19,6 +21,10 @@ const App = () => {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/card-details' element={<CardDetails/>}/>
+          <Route path='/admin'> 
+              <Route path='daseboard' element={<Daseboard/>}/>
+              <Route path='writepost' element={<WritePost/>}/>
+          </Route>
 
 
 
